@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Define your GitHub username and repository name
+
+# Check if both filename and commit message arguments are provided
+if [ $# -ne 2 ]; then
+  echo "Usage: $0 <filename> <commit_message>"
+  exit 1
+fi
+
+# Capture the filename and commit message from command line arguments
+FILENAME="$1"
+COMMIT_MESSAGE="$2"
+
+# Add the specified file to the Git staging area
+git add "$FILENAME"
+
+# Commit the changes with the provided commit message
+git commit -m "$COMMIT_MESSAGE"
+
+# Push the changes to the GitHub repository
+git push
+
