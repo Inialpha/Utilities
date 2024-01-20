@@ -29,14 +29,14 @@ def follow(user_name, token):
 
 
 # input token
-token = input("Pease Enter your personal access token:\n")
+token = input("\nPease Enter your personal access token:\n")
 
 # user names
 
-users = users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR', 'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly', 'MahmoudEasa', 'saadouchama', 'laila22haz', 'OgagaOnuta', 'Liams-theCreator', 'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech', 'Abstaina44', 'Fuzzworth', 'Inialpha', 'Techkene', 'TonnyMpho', 'horbital1140', 'aycrown1', 'Rita2024', 'Reliccode', 'Ahmedkel', 'Aminuv', 'oluwaschunne', 'KevinStreetCoder', 'Kingvadee', 'wezer-pixel', 'alijr2018', 'KingStaff', 'cartermusee', 'mohamed-elghafiani', 'sabbakar', 'koechMR']
+users = ['Reliccode', 'Abstaina44', 'Kingvadee', 'koechMR', 'KingStaff', 'osadeleke', 'MahmoudEasa', 'oluwaschunne', 'Riyo3350G', 'aybzakaria5', 'Techkene', 'TonnyMpho', 'saadouchama', 'shazaaly', 'Temiloluwa22', 'sabbakar', 'wezer-pixel', 'johnechono', 'chukwucyprian', 'zee-ham-su', 'aycrown1', 'OgagaOnuta', 'Romaric250', 'horbital1140', 'Ahmedkel', 'Mado007', 'nuuxcode', 'mohamed-elghafiani', 'mahmoudsalah296', 'Liams-theCreator', 'Rita2024', 'niyioo', 'Aminuv', 'cartermusee', 'nazarKsn', 'Fuzzworth', 'HafsaMAR', 'Abdisalam-Abdulahi', 'AlolaSunday12', 'KevinStreetCoder', 'alijr2018', 'ELABDELLAOUI-HAJAR', 'Inialpha', 'Zak-devz', 'laila22haz', 'Rashnotech', 'omobolaji001']
 
-
-print(list(users), len(users))
 
 for user in users:
     follow(user, token)
+
+print(f"\n\nYou have successfully followed {len(users)}")
