@@ -33,6 +33,13 @@ token = input("Pease Enter your personal access token:\n")
 
 # user names
 
-users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR', 'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly', 'MahmoudEasa', 'saadouchama', 'laila22haz', 'OgagaOnuta', 'Liams-theCreator', 'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech', 'Abstaina44', 'Fuzzworth', 'Inialpha', 'Techkene', 'KingStaff']
+users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR',
+         'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly', 'MahmoudEasa',
+         'saadouchama', 'laila22haz', 'OgagaOnuta', 'Liams-theCreator',
+         'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech', 'Abstaina44',
+         'Fuzzworth', 'Inialpha', 'Techkene', 'KingStaff', 'sabbakar',
+         'Ahmedkel', 'oluwaschunne', 'horbital1140','alijr2018', 'Reliccode',
+         'Rita2024', 'koechMR', 'Oussama-hamdi', 'codeabuu', 'lawrence1986',
+         'Temiloluwa22', 'cartermusee']
 for user in users:
     follow(user, token)
