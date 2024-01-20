@@ -33,8 +33,7 @@ token = input("\nPease Enter your personal access token:\n")
 
 # user names
 
-users = ['Reliccode', 'Abstaina44', 'Kingvadee', 'koechMR', 'KingStaff', 'osadeleke', 'MahmoudEasa', 'oluwaschunne', 'Riyo3350G', 'aybzakaria5', 'Techkene', 'TonnyMpho', 'saadouchama', 'shazaaly', 'Temiloluwa22', 'sabbakar', 'wezer-pixel', 'johnechono', 'chukwucyprian', 'zee-ham-su', 'aycrown1', 'OgagaOnuta', 'Romaric250', 'horbital1140', 'Ahmedkel', 'Mado007', 'nuuxcode', 'mohamed-elghafiani', 'mahmoudsalah296', 'Liams-theCreator', 'Rita2024', 'niyioo', 'Aminuv', 'cartermusee', 'nazarKsn', 'Fuzzworth', 'HafsaMAR', 'Abdisalam-Abdulahi', 'AlolaSunday12', 'KevinStreetCoder', 'alijr2018', 'ELABDELLAOUI-HAJAR', 'Inialpha', 'Zak-devz', 'laila22haz', 'Rashnotech', 'omobolaji001']
-
+users = ['Riyo3350G', 'cartermusee', 'mohamed-elghafiani', 'sabbakar', 'Liams-theCreator', 'Mado007', 'Adooz', 'chukwucyprian', 'alijr2018', 'zee-ham-su', 'Ahmedkel', 'HafsaMAR', 'Temiloluwa22', 'OgagaOnuta', 'TonnyMpho', 'oluwaschunne', 'KingStaff', 'Abdisalam-Abdulahi', 'niyioo', 'Zak-devz', 'nuuxcode', 'Fuzzworth', 'Inialpha', 'MahmoudEasa', 'KafuiAdaku', 'wezer-pixel', 'Romaric250', 'SireME', 'tay121222', 'elyse502', 'horbital1140', 'KevinStreetCoder', 'osadeleke', 'laila22haz', 'johnechono', 'aycrown1', 'ELABDELLAOUI-HAJAR', 'Aminuv', 'samit1719', 'omobolaji001', 'ggbaguidi', 'saadouchama', 'AlolaSunday12', 'aybzakaria5', 'Rita2024', 'Techkene', 'koechMR', 'TemiladeRebecca', 'koechMR', 'Abstaina44', 'nazarKsn', 'mohamed-Fathy1', 'Rashnotech', 'mahmoudsalah296', 'Reliccode', 'shazaaly', 'Kingvadee', 'BibiObiora', 'Xaldovah']
 
 for user in users:
     follow(user, token)
