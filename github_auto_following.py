@@ -33,13 +33,10 @@ token = input("Pease Enter your personal access token:\n")
 
 # user names
 
-users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR',
-         'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly', 'MahmoudEasa',
-         'saadouchama', 'laila22haz', 'OgagaOnuta', 'Liams-theCreator',
-         'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech', 'Abstaina44',
-         'Fuzzworth', 'Inialpha', 'Techkene', 'KingStaff', 'sabbakar',
-         'Ahmedkel', 'oluwaschunne', 'horbital1140','alijr2018', 'Reliccode',
-         'Rita2024', 'koechMR', 'Oussama-hamdi', 'codeabuu', 'lawrence1986',
-         'Temiloluwa22', 'cartermusee']
+users = users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR', 'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly', 'MahmoudEasa', 'saadouchama', 'laila22haz', 'OgagaOnuta', 'Liams-theCreator', 'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech', 'Abstaina44', 'Fuzzworth', 'Inialpha', 'Techkene', 'TonnyMpho', 'horbital1140', 'aycrown1', 'Rita2024', 'Reliccode', 'Ahmedkel', 'Aminuv', 'oluwaschunne', 'KevinStreetCoder', 'Kingvadee', 'wezer-pixel', 'alijr2018', 'KingStaff', 'cartermusee', 'mohamed-elghafiani', 'sabbakar', 'koechMR']
+
+
+print(list(users), len(users))
+
 for user in users:
     follow(user, token)
