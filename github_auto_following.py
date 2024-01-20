@@ -32,11 +32,7 @@ def follow(user_name, token):
 token = input("Pease Enter your personal access token:\n")
 
 # user names
-users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR',
-         'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly',
-         'MahmoudEasa', 'saadouchama', 'laila22haz', 'OgagaOnuta',
-         'Liams-theCreator', 'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech',
-         'Abstaina44', 'Fuzzworth', 'Inialpha']
 
+users = ['mahmoudsalah296', 'Romaric250', 'nuuxcode', 'zee-ham-su', 'HafsaMAR', 'osadeleke', 'ELABDELLAOUI-HAJAR', 'aybzakaria5', 'shazaaly', 'MahmoudEasa', 'saadouchama', 'laila22haz', 'OgagaOnuta', 'Liams-theCreator', 'Abdisalam-Abdulahi', 'Mado007', 'Rashnotech', 'Abstaina44', 'Fuzzworth', 'Inialpha', 'Techkene', 'KingStaff']
 for user in users:
     follow(user, token)
